@@ -7,12 +7,13 @@ const os = osu.os;
 
 
 let cpuOverLoad = 80;
+let alertFrequncy = 10;
 
-notifyUser({
-    title: 'CPU Overload',
-    body: `CPU is over ${cpuOverLoad}%`,
-    icon: path.join(__dirname, 'img', 'icon.png')
-})
+// notifyUser({
+//     title: 'CPU Overload',
+//     body: `CPU is over ${cpuOverLoad}%`,
+//     icon: path.join(__dirname, 'img', 'icon.png')
+// })
 
 
 //Run every 2 seconds
@@ -26,6 +27,7 @@ setInterval(()=> {
         }else{
             document.getElementById('cpu-progress').style.backgroundColor = 'green';
         }
+    
 
     }).catch(function(err) {
         console.log(err);
