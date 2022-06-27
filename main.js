@@ -14,7 +14,7 @@ function createMainWindow() {
     title: 'APP NAME',
     width: isDev ? 800 : 500,
     height: 600,
-    icon: './assets/icons/icon.png',
+    icon: '../assets/icons/icons/icon.png',
     resizable: isDev ? true : false,
     backgroundColor: 'white',
     webPreferences: {
