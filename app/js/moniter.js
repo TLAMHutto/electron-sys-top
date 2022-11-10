@@ -46,7 +46,7 @@ document.getElementById('comp-name').innerHTML = os.hostname();
 
 //os
 document.getElementById('os').innerHTML = `${os.type()} ${os.platform()} ${os.arch()}`;
-
+console.log(osu);
 //Total memory
 mem.info().then(info => {
     document.getElementById('mem-total').innerHTML = info.totalMemMb;

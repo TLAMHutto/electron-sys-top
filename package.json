@@ -14,7 +14,7 @@
   "keywords": [
     "Electron"
   ],
-  "author": "Brad Traversy",
+  "author": "Keaton",
   "license": "MIT",
   "devDependencies": {
     "electron": "^8.2.5",
